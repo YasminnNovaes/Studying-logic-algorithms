@@ -1,2 +1,6 @@
-# learning-logic-algorithms
-Repositório para documentar meu aprendizado em lógica de programação e algoritmos. Inclui conteúdos do curso de nivelamento da FIAP, do nano curso de Algoritmos, e estudos em JavaScript.
+<br><br>
+<p align="center">Este repositório reúne os frutos da minha jornada de aprendizado em lógica de programação, por meio de exercícios práticos e desafios imersivos do curso 'Lógica de programação: mergulhe em programação com JavaScript'..</p>&nbsp;
+
+<p align="center">
+  <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Cat Programming">
+</p>
