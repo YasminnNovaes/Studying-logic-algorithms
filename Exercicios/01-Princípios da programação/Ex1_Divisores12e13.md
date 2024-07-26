@@ -1,7 +1,13 @@
+# Exercício
 Dados os números 12 e 13, encontre todos os divisores de cada um desses números. Sempre
 considere serem números inteiros e positivos, a menos que explicitamente indicado o contrário
 no enunciado. Sempre considere que os extremos (inclusive) são parte da solução a menos que
 explicitamente (exclusive) estiver indicado que não se devem considerar os extremos.
+
+<p style="center">
+  <img src="https://media.giphy.com/media/lKgyD4nD3nQXWGwiQu/giphy.gif" alt="Teacher Math Gif">
+</p>
+
 
 # Algoritmo
 
