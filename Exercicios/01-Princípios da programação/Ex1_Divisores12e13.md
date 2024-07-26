@@ -4,7 +4,7 @@ considere serem números inteiros e positivos, a menos que explicitamente indica
 no enunciado. Sempre considere que os extremos (inclusive) são parte da solução a menos que
 explicitamente (exclusive) estiver indicado que não se devem considerar os extremos.
 
-<p style="center">
+<p align="center">
   <img src="https://media.giphy.com/media/lKgyD4nD3nQXWGwiQu/giphy.gif" alt="Teacher Math Gif">
 </p>
 
