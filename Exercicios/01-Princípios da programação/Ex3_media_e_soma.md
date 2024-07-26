@@ -1,7 +1,7 @@
 # Exercicio:
 Dados 3 números, apresente a soma e a média destes números.
 
-
+<p aligh= https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2s2bDQ5MjY5eG9hNTdua3Rpa3RocGhsbWJlbmw0cngyd200NDAzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WRQBXSCnEFJIuxktnw/giphy.webp
 
 # Algoritmo:
 
