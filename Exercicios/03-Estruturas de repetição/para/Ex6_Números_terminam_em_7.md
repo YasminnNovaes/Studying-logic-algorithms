@@ -8,11 +8,13 @@
 
 Elabore um algoritmo que solicite ao usuário dois números inteiros e imprima apenas aqueles em seu intervalo que terminarem em “7” (por exemplo, ao digitar 1 e 50, deverão ser exibidos os números 7, 17, 27, 37 e 47).
 
+Entendi que a proposta da atividade é usar a estrutura "para" ao invés da estrutura "enquanto". Vamos adaptar o algoritmo para seguir essa orientação.
+
 ## Algoritmo
 
 ```
 Var
-  num1, num2, fim, inicio = Inteiro
+  num1, num2, inicio, fim = Inteiro
 
 Inicio
   escreva("Digite o primeiro número: ")
@@ -29,29 +31,30 @@ Inicio
     fim <- num1
   fimSe
 
-  enquanto(inicio % 10 <> 7) faça
-    inicio <- inicio + 1
-  fimEnquanto
+  // Ajusta o início para o próximo número que termina em 7
+  se (inicio % 10 <> 7) então
+    inicio <- inicio + (7 - (inicio % 10))
+    se (inicio < num1 ou inicio < num2) então
+      inicio <- inicio + 10
+    fimSe
+  fimSe
 
   para i de inicio até fim passo 10 faça
-    escreva(i," ")
+    se (i <= fim) então
+      escreva(i," ")
+    fimSe
   fimPara
 fim
-
 ```
 
 ## Explicação do Algoritmo
 
-1. **Entrada dos Números**: O algoritmo solicita ao usuário dois números inteiros. Esses números definem o intervalo dentro do qual procuraremos os números que terminam em 7.
+1. **Entrada dos Números**: Solicita ao usuário dois números inteiros para definir o intervalo de busca.
 
-2. **Definição do Intervalo**: Verificamos qual dos números fornecidos é menor e qual é maior para definir corretamente o início e o fim do intervalo.
+2. **Definição do Intervalo**: Determina qual dos números fornecidos é menor e qual é maior para definir corretamente o início e o fim do intervalo.
 
-3. **Ajuste do Início**: Utilizamos um laço `Enquanto` para ajustar o valor de `inicio` até encontrar o próximo número que termina em 7. Isso garante que começamos a busca do ponto correto.
+3. **Ajuste do Início**: Ajusta o valor de `inicio` para o próximo número que termina em 7. Se o número inicial não termina em 7, calcula a diferença até o próximo número que termina em 7 e ajusta `inicio` de acordo.
 
-4. **Iteração Efetiva**: Usamos um laço `Para` com um passo de 10, começando do número ajustado no passo anterior, para iterar pelos números que terminam em 7. Isso torna o algoritmo mais eficiente.
+4. **Iteração com "Para"**: Usa um laço `Para` com um passo de 10, começando do número ajustado no passo anterior, para iterar pelos números que terminam em 7.
 
-5. **Saída dos Resultados**: O algoritmo imprime todos os números dentro do intervalo que terminam em 7, garantindo que a saída seja correta e eficiente.
-
-## Considerações Finais
-
-Este algoritmo é um exemplo de como podemos otimizar a busca e filtragem de dados em um intervalo, focando apenas nos resultados relevantes e reduzindo o número de iterações necessárias.
+5. **Saída dos Resultados**: Imprime todos os números dentro do intervalo que terminam em 7, garantindo que a saída seja correta e eficiente.
