@@ -1,7 +1,7 @@
 # Números que Terminam em 7
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0MYGB2bU5Rmw9uEw/giphy.gif" alt="Numbers GIF">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjg5eW0zODliamxvbDdxbnpuZzRhaTdpOXk5OW1vMmh2b3IxaHA2eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4Ho74sS3cxg5TLLa/giphy.webp" alt="Numbers GIF">
 </p>
 
 ## Exercício
