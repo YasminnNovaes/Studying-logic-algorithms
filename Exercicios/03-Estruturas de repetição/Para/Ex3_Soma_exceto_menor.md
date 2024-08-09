@@ -12,7 +12,7 @@ Elabore um algoritmo que solicite ao usuário "n" números inteiros e imprima a 
 
 ## Algoritmo
 
-```plaintext
+```
 Início
     // Declaração das variáveis
     Inteiro n, numero, soma, menor
