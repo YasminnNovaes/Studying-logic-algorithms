@@ -8,8 +8,6 @@
 
 Elabore um algoritmo que solicite ao usuário dois números inteiros e imprima apenas aqueles em seu intervalo que terminarem em “7” (por exemplo, ao digitar 1 e 50, deverão ser exibidos os números 7, 17, 27, 37 e 47).
 
-Entendi que a proposta da atividade é usar a estrutura "para" ao invés da estrutura "enquanto". Vamos adaptar o algoritmo para seguir essa orientação.
-
 ## Algoritmo
 
 ```
